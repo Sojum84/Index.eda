@@ -605,11 +605,14 @@ body {
   .container {
     max-width: 560px;
   }
+
+  .header {
+    flex-wrap: wrap;
+  }
   .search-form {
     order: 5;
     margin: 15px 0;
   }
-
   .promo {
     flex-wrap: wrap;
   }
@@ -634,5 +637,35 @@ body {
 
   .footer-wrapper {
     flex-wrap: wrap;
+  }
+
+  .button {
+    padding: 5px 10px;
+  }
+
+  .slide-title {
+    font-size: 38px;
+    line-height: 38px;
+    margin-top: -90px;
+  }
+
+  .slide {
+    padding: 30px;
+  }
+  .social-links {
+    margin: auto;
+    padding-top: 20px;
+  }
+
+  .footer-nav {
+    margin: 0;
+    /* align-items: center; */
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-logo {
+    width: 102px;
   }
 }
