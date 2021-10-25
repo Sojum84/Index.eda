@@ -668,4 +668,17 @@ body {
   .footer-logo {
     width: 102px;
   }
+
+  .delivery-week {
+    padding: 0;
+  }
+  .section-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .footer-link {
+    margin-right: 10px;
+  }
 }
